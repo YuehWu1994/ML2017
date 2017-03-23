@@ -32,7 +32,7 @@ featureSet = []
 if arg == True:
     testData = genfromtxt(sys.argv[2],dtype=None,delimiter=',')
 else:
-    testData = genfromtxt("/Users/apple/desktop/NTUEE/課程八/ML/git/hw1/test_X.csv",dtype=None,delimiter=',')    
+    testData = genfromtxt("/",dtype=None,delimiter=',')    
    
 column = int(testData[0].size)
 row = len(testData)
@@ -62,7 +62,7 @@ for k in range(0,240):
 if arg == True:
     pth = sys.argv[3]
 else:
-    pth = "/Users/apple/desktop/NTUEE/課程八/ML/git/hw1/submi1.csv"
+    pth = "/"
 with open (pth, 'w') as f:
     writer = csv.writer(f)
     for k in range(0,241):
