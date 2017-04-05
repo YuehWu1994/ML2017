@@ -6,7 +6,7 @@ import sys
 import csv
 import random
 from numpy import genfromtxt
-rootPath = '/Users/apple/desktop/NTUEE/課程八/ML/git/hw2/'
+rootPath = ''
 # global param
 arg = False
 selectFea = []
