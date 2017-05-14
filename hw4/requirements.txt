@@ -1,0 +1,21 @@
+#
+####### example-requirements.txt #######
+#
+###### Requirements without Version Specifiers ######
+nltk
+word2vec
+sklearn
+adjustText
+PIL
+scipy
+#
+###### Requirements with Version Specifiers ######
+# 
+#
+###### Refer to other requirements files ######
+#
+#
+###### A particular file ######
+#
+###### Additional Requirements without Version Specifiers ######
+#
